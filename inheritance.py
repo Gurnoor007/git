@@ -16,6 +16,7 @@ objbus=bus()
 objthar=thar()
 objwrangler=wrangler()
 
+
 objbus.category()
 objbus.seatingCapacity()
 objthar.category()
