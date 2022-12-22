@@ -9,6 +9,7 @@ action=["rock","paper","scissor"]
 print("Your selection is",action[user_input-1])
 comp_input= random.choice(action)
 print("Selection of computer is",comp_input)
+
 if action[user_input-1]==comp_input :
  print("TIE")
 elif action[user_input-1]=="rock" and  comp_input=="scissor":
